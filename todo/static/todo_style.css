@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+body {
+  margin: 20px;
+  font: 600 18px 'Source Sans Pro', sans-serif;
+  letter-spacing: 0.64px;
+  color: #000000;
+  background-color: #1a2238;
+}
+.topnav {
+  text-align: center;
+  background-image: linear-gradient(to bottom, hsl(154, 100%, 79%), #48baf4); 
+  color:#000000;
+  padding:10px;
+}
+.topnav a:link, .topnav a:visited {
+  text-decoration: none;
+  color: #ffffff; 
+}
+.topnav a:hover, .topnav a:active {
+  text-decoration: underline;
+}
+.mycard {
+  background-color: #48baf4;
+  background-image: linear-gradient(to bottom, hsl(154, 100%, 79%), #48baf4); 
+  background-size: 100% 180px;
+  background-repeat: no-repeat;
+  margin: 40px auto;
+  width: 700px;
+  border-radius: 15px;
+  box-shadow: 0 5px 7px -1px rgba(51, 51, 51, 0.23); 
+  padding: 30px;
+}
+.mycard h1 {
+  text-align: center;
+  color:#ffffff;
+  margin:20px 0 60px 0;
+}
+.mycard h3 {
+    text-align: center;
+    font: 900 40px 'Source Sans Pro', sans-serif;
+    color:#000000;
+    margin:20px 0 20px 0;
+  }
+.mycard h5 {
+    text-align: center;
+    font: 900 40px 'Source Sans Pro', sans-serif;
+    color:#000000;
+    margin:0px 0 15px 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  background-color: #ffffff;
+  background-image: linear-gradient(to right, hsl(187, 80%, 66%), #4D70EF); 
+  background-size: 50px 60px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: transform .25s;
+  border-radius: 5px;
+  box-shadow: 0 5px 7px -1px rgba(216, 76, 76, 0.23);
+  padding: 15px;
+  padding-left: 70px;
+  margin-top: 5px;
+}
+li:hover {
+  transform: scale(1.1);
+}
+a:link, a:visited {
+  color: #557986; 
+}
+
+
+input{
+    padding:6px 15px; 
+    background:#3145f54a; 
+    border: none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 30px; 
+}
+.main, .main h1 {
+  text-align:center;
+  color:#3a4055;
+}

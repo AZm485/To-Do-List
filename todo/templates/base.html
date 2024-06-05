@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <!-- Simple.css -->
+    <link rel="stylesheet" href="{% static 'todo_style.css' %}">
+    <div class="main">
+    <title>To-do Lists</title>
+    </div>
+</head>
+
+<body>
+    <div class="topnav">
+        <h1 onclick="location.href='{% url "index" %}'">
+            To-do Lists
+        </h1>
+    </div>
+    <div>
+        {% block content %}
+        This content will be replaced by different html code for each page.
+        {% endblock %}
+    </div>
+</body>
+
+
+</html>
